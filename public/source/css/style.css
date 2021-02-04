@@ -1,0 +1,281 @@
+@font-face{
+    src: url(../font/Baomoi_gdi.woff);
+    font-family: 'Baomoi';
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baomoi';
+}
+
+HTML,BODY{
+    cursor: url("http://mangvn.org/2005/anh/chuot/vietnam.cur"), url("http://mangvn.org/2005/anh/chuot/chuthap.cur"), auto;
+}
+.container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.menu-top {
+    background: black;
+}
+.menu-top nav a {
+    color:#fff !important;
+    font-weight: bold;
+}
+.logo img {
+    width: 20%;
+}
+.menu-top nav li:hover {
+    border-bottom: red solid 2px;
+}
+.menu-top nav li {
+    /* width: 20%; */
+    font-size: 20px;
+    text-align: center;
+    margin-right: 15px;
+}
+.menu-top button a {
+    text-decoration: none;
+}
+.menu-top button {
+    right: 0;
+}
+.slide .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+.menu-top .navbar-toggler{
+    border: solid 1px #ccc !important;
+}
+.info img {
+    height: 200px !important;
+}
+.intro {
+    background-image: url("../image/background/top2.gif");
+}
+.info-left h4 {
+    font-weight: bold;
+}
+.info-left p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill h2 {
+    color: #fff;
+    font-weight: bold;
+    border-bottom: #fff 1px solid;
+}
+.skill p {
+    color: #fff;
+}
+.skill-item-blog img {
+    width: 100%;
+    height: 200px !important;
+    border-radius: 5px;
+}
+.skill-item-blog div h5 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+.skill-item-blog div a {
+    text-decoration: none !important;
+}
+.life .line-title {
+    height:4px ;
+    background: red;
+    width: 50%;
+    margin: 0 auto;
+}
+.img-wrapper {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+.img-wrapper img {
+    transition: transform .9s ease-in-out;
+    vertical-align: middle;
+}
+.img-wrapper img:hover {
+    transform: scale(2) rotate(25deg);
+}
+.img-wrapper2 {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+.img-wrapper2 img {
+    transform-origin: 50% 65%;
+    transition: transform 3s, filter 3s ease-in-out;
+    filter: brightness(100%);
+}
+.img-wrapper2 img:hover {
+    filter: brightness(100%);
+    transform: scale(3);
+}
+.tin-cong-nghe div a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+.tin-cong-nghe div a:hover {
+    color: rgb(219, 88, 88);
+}
+.tin-cong-nghe p,small {
+    color: #4D4D4D;
+}
+.tin-cong-nghe div img {
+    height: 200px;
+}
+.tin-cong-nghe button a {
+    color: #fff;
+    text-decoration:none;
+}
+.do-hop-namvictor {
+    background-image: url("../image/background/top3.gif");
+}
+.do-hop-namvictor .line-title {
+    height:4px ;
+    background: #fff;
+    width: 50%;
+    margin: 0 auto;
+}
+.do-hop-namvictor form label {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+.do-hop-namvictor form {
+    width: 70%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+footer .contact-footer a{
+    text-decoration: none;
+    color: black;
+}
+footer .contact-footer a:hover {
+    color: #007bff;
+}
+footer h5 {
+    font-weight: bold;
+}
+footer .info-footer,.contact-footer {
+    border-right: #ccc 1px solid;
+}
+footer {
+    padding-bottom: 50px;
+}
+/* ------------------ */
+.main-blog {
+    background-color: #f1f1f1 !important;
+}
+.category-blog {
+    border-bottom: solid #ccc 2px;
+}
+.category-blog h5 {
+    font-weight: bold;
+
+}
+.title-blog h2 {
+    font-weight: bold;
+    padding-top: 30px;
+    color: #78b43d;
+}
+.title-blog{
+    border-bottom: solid 1px #ccc;
+
+}
+.content-blog h4 {
+    font-weight: bold;
+    padding-top: 20px;
+}
+.content-blog {
+    border-bottom: solid 1px #ccc;
+}
+.content-blog p {
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+}
+.content-blog img {
+    width: 100% !important;
+}
+.blog-other .title-blog-other {
+    padding-top: 15px;
+    font-weight: bold;
+    color:#78b43d ;
+    border-bottom: solid 2px #78b43d;
+}
+.blog-other .skill-item-blog h5 {
+    color: black;
+}
+.category-other-blog div a {
+    text-decoration: none;
+    color: black;
+}
+.category-other-blog div a:hover {
+    color: rgb(231, 96, 96);
+}
+.category-other-blog h5 {
+    font-weight: bold;
+    border-bottom: solid 2px red;
+}
+.blog-item div a {
+    color: #333;
+    text-decoration: none;
+}
+.blog-item div a:hover {
+    color: #f0a52b;
+}
+.blog-title {
+    border-bottom: 2px solid #f0a52b;
+}
+.blog-title h4 i{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    letter-spacing: 0.75px;
+}
+.blog-item img{
+    height: 200px;
+    width: 100%;
+}
+.library ul li img {
+    width: 250px;
+    margin-right: 15px;
+    height: 300px;
+}
+.library ul {
+    text-align: center;
+    overflow: hidden; 
+    display: inline-block;
+    margin-left: 20px;
+}
+.library ul li {
+    list-style: none;
+    float: left;
+    margin-top: 20px;
+}
+
+
+  @media only screen and (max-width: 770px) {
+        .menu-top nav li {
+            width: 200px;
+            text-align: left;
+        }
+        footer .copyright,.contact-footer {
+            margin-top: 15px;
+        }
+        .library ul li img {
+            margin: 0px;
+            width: 100%;
+        }
+        .library ul{
+            margin: 0px;
+        }
+        .logo {
+            margin: 0px !important;
+        }
+  }
